@@ -1,0 +1,23 @@
+{
+  "name": "ffl-custom-block-plugin",
+  "title": "FFL Checkout Block",
+  "description": "Sample FFL Custom Block Plugin.",
+  "category": "woocommerce",
+  "parent": ["woocommerce/checkout-shipping-address-block"],
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "attributes": {
+    "fieldValue": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^26.0.0"
+  },
+  "editorScript": "file:./build/index.js",
+  "style": "file:./build/style-index.css",
+  "script": "file:./build/frontend.js"
+}
