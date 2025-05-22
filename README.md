@@ -12,4 +12,9 @@ This repository contains a proof of concept for upgrading the FFL extension to c
 
 ## Creating a distro for this extension
 
-If you want to distribute this extension to other users, you just need to zip the build directory. Users can install this plugin normally in WordPress as any other.
+To distribute this extension to other users, you need to zip the build directory. Users can install this plugin normally in WordPress by going to Plugins > Add Plugin and uploading the zip file.
+
+After activating the plugin, a new block will be added to the blocks panel inside the Cart page.
+
+<img width="1431" alt="image" src="https://github.com/user-attachments/assets/fa115aff-29c4-440a-b9da-2160044e4767" />
+
